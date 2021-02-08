@@ -20,6 +20,11 @@
     print_r($key_arr);
     echo '</pre>';
 
+    $assc_arr = array(19 => 'Kamila', 16 => 'Anais', 25 => 'Nursultan', 18 => 'Dilnaz');
+    echo '<pre>';
+    print_r($assc_arr);
+    echo '</pre>';
+
 
 
     ?>
