@@ -25,15 +25,24 @@
     print_r($assc_arr);
     echo '</pre>';
 
-    $cars = array (
-        array("Volvo",22,18),
-        array("BMW",15,13),
-        array("Saab",5,2),
-        array("Land Rover",17,15)
+    $cars = array(
+        array("Volvo", 22, 18),
+        array("BMW", 15, 13),
+        array("Saab", 5, 2),
+        array("Land Rover", 17, 15)
     );
     echo '<pre>';
     print_r($cars);
     echo '</pre>';
+
+    for ($row = 0; $row < 4; $row++) {
+        echo "<p><b>Row number $row</b></p>";
+        echo "<ul>";
+        for ($col = 0; $col < 3; $col++) {
+            echo "<li>" . $cars[$row][$col] . "</li>";
+        }
+        echo "</ul>";
+    }
 
 
 
