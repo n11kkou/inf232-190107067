@@ -13,7 +13,12 @@
     $ind_arr = array("Kokshetau", "Karaganda", "Astana");
     echo '<pre>';
     print_r($ind_arr);
-    echo '</pre>'
+    echo '</pre>';
+
+    $key_arr = [3 => 'Kokshetau', 9 => 'Karaganda', 1 => 'Astana'];
+    echo '<pre>';
+    print_r($key_arr);
+    echo '</pre>';
 
 
 
