@@ -17,7 +17,14 @@
     echo '</pre>';
 
     for($i = 0; $i < sizeof($ind_arr); $i++){
-    
+        if ($ind_arr[$i] == 'Kokshetau'){
+            echo 'I live in ' .$ind_arr[$i];
+            }
+            else if ($ind_arr[$i] == 'Astana'){
+            echo 'I want to go to ' . $ind_arr[$i];
+            }
+            else 
+            echo 'I dont want to go to' . $ind_arr[$i];
     }
 
     echo '<h3>Array With My Indeces</h3>';
