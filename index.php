@@ -18,13 +18,13 @@
 
     for($i = 0; $i < sizeof($ind_arr); $i++){
         if ($ind_arr[$i] == 'Kokshetau'){
-            echo 'I live in ' .$ind_arr[$i];
+            echo 'I live in ' .$ind_arr[$i] . '</br>';
             }
             else if ($ind_arr[$i] == 'Astana'){
-            echo 'I want to go to ' . $ind_arr[$i];
+            echo 'I want to go to ' . $ind_arr[$i]. '</br>';
             }
             else 
-            echo 'I dont want to go to' . $ind_arr[$i];
+            echo 'I dont want to go to ' . $ind_arr[$i]. '</br>';
     }
 
     echo '<h3>Array With My Indeces</h3>';
