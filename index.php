@@ -16,6 +16,10 @@
     print_r($ind_arr);
     echo '</pre>';
 
+    for($i = 0; $i < sizeof($ind_arr); $i++){
+    
+    }
+
     echo '<h3>Array With My Indeces</h3>';
     $key_arr = [3 => 'Kokshetau', 9 => 'Karaganda', 1 => 'Astana'];
     echo '<pre>';
@@ -47,6 +51,7 @@
         }
         echo "</ul>";
     }
+
 
 
 
